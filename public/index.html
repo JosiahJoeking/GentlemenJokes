@@ -14,10 +14,11 @@
             
 </head>
 <body>
+  <div class="Logo"><a href="#" class="brand-logo">Logo</a></div>
     <nav>
         <div class="nav-wrapper">
-          <a href="#" class="brand-logo">Logo</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
+  
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li class="active"><a href="index.html">Home</a></li>
             <li ><a href="About.html">About</a></li>
             <li ><a href="Contact.html">Contact</a></li>
@@ -25,12 +26,18 @@
         </div>
       </nav>
         
-      <main class="container"c>
-        <h1>My App</h1>
+      <main class="container">
+        <div id = "result">
+        <h1>Gentlemen tell us</h1>
+        <div id = "JokeButton">
+          <a class="waves-effect waves-light btn" onclick="JokeHTML()">Tell us a joke </a>
+        </div>
+        <a class="waves-effect waves-light btn">What to do</a>
+        </div>
       </main>
 
 
-    <script>
+    <script src="main.js">
          M.AutoInit();
     </script>
     
