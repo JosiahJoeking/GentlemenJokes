@@ -14,6 +14,7 @@
 
     <!--  Style sheet -->
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             
 </head>
 <div class="splash">
@@ -29,13 +30,23 @@
        <ul class="left">
           <li><a class="waves-effect waves-white btn-flat white-text" id = "logobut" href="home.html">Gentlemen Jokes</a></li>
        </ul>
+       <a href="#" class="sidenav-trigger right" data-target="options">
+         <i class="material-icons right">menu</i>
+       </a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li class="active waves-white"><a href="home.html">Home</a></li>
+        <li class="active"><a href="home.html">Home</a></li>
         <li ><a href="About.html">About</a></li>
         <li ><a href="Contact.html">Contact</a></li>
       </ul>
     </div>
   </nav>
+
+  <ul class="sidenav right" id = "options">
+    <li class="active"><a href="home.html">Home</a></li>
+    <li ><a href="About.html">About</a></li>
+    <li ><a href="Contact.html">Contact</a></li>
+  </ul>
+  
 
   <main class="container">
 
@@ -54,6 +65,9 @@
     <script src="main.js">
          M.AutoInit();
     </script>
+    
+    
+    
 
 </body>
 </html>
