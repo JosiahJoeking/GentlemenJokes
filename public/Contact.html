@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template App</title>
+    <title>Gentlemen Jokes Contact</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -28,29 +28,34 @@
         
       <main class="container"c>
         <h1>Contact</h1>
-      </main>
+      
 
-    </form>
+    <form class = "col s6 left">
 
-    <label for="Email">Email:</label> 
-    <input type="Text" ID="Email" placeholder="Your Email">
-    <small class="Error"></small>
+    <div id = "contactform">
 
-    <label for="Name or Title">Name:</label> 
-    <input type="Text" ID="Title" placeholder="Your Name or Title">
-    <small class="Error"></small>
+      <label for="Email">Email:</label> 
+      <input type="Text" ID="Email" placeholder="Your Email">
+      <small class="Error"></small>
 
-    <label for="Message">Message:</label> 
-    <textarea ID="Message" placeholder="What would you like to say?" rows="5"></textarea>
-    <small class="Error"></small>
+      <label for="Name or Title">Name:</label> 
+      <input type="Text" ID="Title" placeholder="Your Name or Title">
+      <small class="Error"></small>
 
-    <div class="center">
+      <label for="Message">Message:</label> 
+      <textarea ID="Message" placeholder="What would you like to say?" rows="6"></textarea>
+      <small class="Error"></small>
+
+      <div class="center">
       <a class="waves-effect waves-light btn">Submit</a>
-      <p id="sucess"></p>
 
-    </div>
+      </div>
+
+  </div>
 
   </form>
+
+</main>
 
 
     <script>
