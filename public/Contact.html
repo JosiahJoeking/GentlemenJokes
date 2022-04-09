@@ -4,51 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gentlemen Jokes Contact</title>
+    <title>Gentlemen Jokes Home</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--  Style sheet -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
             
 </head>
 <body>
-    <nav>
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo">Logo</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About.html">About</a></li>
-            <li class="active"><a href="Contact.html">Contact</a></li>
-          </ul>
-        </div>
 
-      </nav>
+  <nav>
+    <div class="nav-wrapper black navbar-fixed" id = "navbar">
+       <img src="images/Gentlemen Jokes official design square png.png " id = "logo" class = "left">
+       <ul class="left">
+          <li><a class="waves-effect waves-white btn-flat white-text" id = "logobut" href="index.html">Gentlemen Jokes</a></li>
+       </ul>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li ><a href="index.html">Home</a></li>
+        <li ><a href="About.html">About</a></li>
+        <li class="active waves-white"><a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <img src="images/manwaitpexels-anders-kristensen-447570.jpg" id = "pageimage">
         
-      <main class="container"c>
-        <h1>Contact</h1>
-      
-
-    <form class = "col s6 left">
+    <main class="container">    
+     
+    <form class = "left s1">
+      <h3>Contact</h3>
 
     <div id = "contactform">
 
-      <label for="Email">Email:</label> 
-      <input type="Text" ID="Email" placeholder="Your Email">
-      <small class="Error"></small>
+      <div class="input-field">
+        <input id="email" type="email" class="validate">
+        <label for="email">Email</label>
+      </div>
 
-      <label for="Name or Title">Name:</label> 
-      <input type="Text" ID="Title" placeholder="Your Name or Title">
-      <small class="Error"></small>
+      <div class="input-field">
+        <input id="name" type="text" class="validate">
+        <label for="name">Name</label>
+      </div>
 
-      <label for="Message">Message:</label> 
-      <textarea ID="Message" placeholder="What would you like to say?" rows="6"></textarea>
-      <small class="Error"></small>
+      <div class="input-field">
+        <label for="Message">Message:</label>      
+        <textarea ID="Message" class="materialize-textarea" placeholder="What would you like to say?" rows="6"></textarea>
+        <small class="Error"></small>
+      </div>
 
-      <div class="center">
-      <a class="waves-effect waves-light btn">Submit</a>
-
+      <div id = Button>
+        <a class="waves-effect waves-light btn-large amber black-text">Submit</a>
       </div>
 
   </div>
@@ -58,7 +68,7 @@
 </main>
 
 
-    <script>
+    <script src="main.js">
          M.AutoInit();
     </script>
     

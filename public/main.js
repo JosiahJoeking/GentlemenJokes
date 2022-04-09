@@ -7,12 +7,31 @@ function JokeHTML() {
     let result = document.querySelector ('#result')
 
     let html = '';
-    html += ` <h1>Lorem Ipsum.........................</h1>
-        <div Id = "ReturnHome">
-            <a class="waves-effect waves-light btn">Return Home</a>
+    html += ` <h2>Lorem Ipsum.........................</h2>
+        <div id = "Button">
+            <a class="waves-effect waves-light btn-large black amber-text" href="index.html">Return Home</a>
         </div>
-        <div Id = "TellAnother">
-        <a class="waves-effect waves-light btn">Tell another</a>
+        <div id = "Button">
+            <a class="waves-effect waves-light btn-large amber black-text" onclick="JokeHTML()">Tell another</a>
+        </div>
+      </main>
+      `
+    result.innerHTML = html;
+}
+
+function ToDoHTML() {
+    console.log("test");
+    let result = document.querySelector ('#result')
+
+    let html = '';
+    html += ` <h2>Lorem Ipsum.........................</h2>
+                <h4>Participants: ........</h4>
+                <h4>Cost: ........</h4>
+        <div id = "Button">
+            <a class="waves-effect waves-light btn-large black amber-text" href="index.html">Return Home</a>
+        </div>
+        <div id = "Button">
+            <a class="waves-effect waves-light btn-large amber black-text" onclick="ToDoHTML()">Tell another</a>
         </div>
       </main>
       `
