@@ -4,6 +4,39 @@ body
     width: 100vw;
 }
 
+.splash
+{
+    position: fixed;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: 10000;
+}
+
+.splash.display-none
+{
+    opacity: 0;
+    position: fixed;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: -1000;
+    transition: all 0.5s;
+}
+
+#splash-image
+{
+
+    display: flex;
+    margin-top: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: auto;
+}
+
 h1
 {
     font-family: "Brush Script MT";

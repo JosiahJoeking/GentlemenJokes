@@ -2,6 +2,14 @@
 //Ethan Lee Chong
 //Gareth Walker
 
+const splash = document.querySelector('.splash');
+
+document.addEventListener('DOMContentLoaded', (e)=>{
+    setTimeout(()=>{
+        splash.classList.add('display-none');
+    }, 2000);
+})
+
 function JokeHTML() {
     console.log("test");
     let result = document.querySelector ('#result')
@@ -9,7 +17,7 @@ function JokeHTML() {
     let html = '';
     html += ` <h2>Lorem Ipsum.........................</h2>
         <div id = "Button">
-            <a class="waves-effect waves-light btn-large black amber-text" href="index.html">Return Home</a>
+            <a class="waves-effect waves-light btn-large black amber-text" href="home.html">Return Home</a>
         </div>
         <div id = "Button">
             <a class="waves-effect waves-light btn-large amber black-text" onclick="JokeHTML()">Tell another</a>
@@ -28,7 +36,7 @@ function ToDoHTML() {
                 <h4>Participants: ........</h4>
                 <h4>Cost: ........</h4>
         <div id = "Button">
-            <a class="waves-effect waves-light btn-large black amber-text" href="index.html">Return Home</a>
+            <a class="waves-effect waves-light btn-large black amber-text" href="home.html">Return Home</a>
         </div>
         <div id = "Button">
             <a class="waves-effect waves-light btn-large amber black-text" onclick="ToDoHTML()">Tell another</a>
