@@ -89,7 +89,7 @@ h1
 
 h2
 {
-    font-size: 8vw;
+    font-size: 4vw;
     font-family: "Georgia";
     display: flex;
     justify-content: center;
@@ -100,7 +100,7 @@ h2
 
 h3
 {
-    font-size: 5vw;
+    font-size: 2vw;
     font-family: "Brush Script MT";
     display: flex;
     justify-content: left;
