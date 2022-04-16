@@ -54,9 +54,9 @@ function JokeDisplay(Joke) {
  
     html += `
     <h4>Setup:</h4>
-    <h2>${Joke.setup})</h2>
+    <h2>${Joke.setup}</h2>
     <h4>Delivery:</h4>
-    <h2>${Joke.delivery})</h2>
+    <h2>${Joke.delivery}</h2>
         <div id = "Button">
             <a class="waves-effect waves-light btn-large black amber-text" href="home.html">Return Home</a>
         </div>

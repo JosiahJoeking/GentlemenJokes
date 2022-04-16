@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/uwidcit/mat-starter#readme",
   "dependencies": {
+    "firebase": "^9.6.11",
     "live-server": "^1.2.1"
   }
 }
