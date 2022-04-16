@@ -132,3 +132,28 @@ p
     height: 300px; 
     object-fit: cover;
 }
+
+#abtimg
+{
+    width: 200px;
+    margin-left: 5px;
+    border: solid black 12px;
+    padding: 5px;
+
+
+}
+
+#Button2
+{
+    justify-content: center;
+    font-family: "Castellar";
+    display: inline-flex;
+    width: calc(50% - 3px);
+    margin: 0 auto;
+    font-size: 8vw;
+    min-width: 8vw;
+    text-align: right;
+    text-decoration: none;
+    padding: 20px 20px 20px 20px;
+}
+
