@@ -100,7 +100,7 @@ h2
 
 h3
 {
-    font-size: 2vw;
+    font-size: 8vw;
     font-family: "Brush Script MT";
     display: flex;
     justify-content: left;
@@ -117,7 +117,7 @@ h4
 
 p
 {
-    font-size: 1vw;
+    font-size: 20px;
     font-family: "Georgia";
 }
 
@@ -135,12 +135,10 @@ p
 
 #abtimg
 {
-    width: 200px;
-    margin-left: 5px;
-    border: solid black 12px;
-    padding: 5px;
-
-
+    width: 250px;
+    margin-left: 10px;
+    border: solid black 6px;
+    padding: 0px;
 }
 
 #Button2
